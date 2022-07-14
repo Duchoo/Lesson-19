@@ -8,6 +8,59 @@
     <title>Lesson 19</title>
   </head>
   <body>
+    <button id="open-modal" type="button">Open modal</button>
+    <div class="modal my-modal">
+      <form id="user-login-form" method="post" action="/" novalidate>
+        <div class="form-field">
+          <label>
+            <input name="email" type="email" placeholder="Enter Email" />
+            <p class="error-message"></p>
+          </label>
+        </div>
+        <div class="form-field">
+          <label>
+            <input
+              name="password"
+              type="password"
+              placeholder="Enter Password"
+            />
+            <p class="error-message"></p>
+          </label>
+        </div>
+        <div class="form-field">
+          <label>
+            <input
+              name="personal_number"
+              type="number"
+              placeholder="Enter personal number"
+            />
+            <p class="error-message"></p>
+          </label>
+        </div>
+        <div class="form-field">
+          <label>
+            <input
+              name="mobile_number"
+              type="number"
+              placeholder="Enter mobile number"
+            />
+            <p class="error-message"></p>
+          </label>
+        </div>
+        <div class="form-field">
+          <label>
+            <input
+              name="position"
+              type="text"
+              placeholder="Enter position"
+              maxlength="30"
+            />
+            <p class="error-message"></p>
+          </label>
+        </div>
+        <button id="login-btn" class="modal-close" type="submit">Login</button>
+      </form>
+    </div>
     <script src="js/app.js"></script>
   </body>
 </html>
