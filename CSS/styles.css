@@ -10,9 +10,9 @@
   border: 1px solid #e3e3e3;
 }
 button {
+  justify-content: center;
   padding: 6px 20px;
 }
-
 .form-field .has-error,
 .form-field .has-error:focus {
   border: 1px solid red;
